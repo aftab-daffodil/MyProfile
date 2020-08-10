@@ -13,6 +13,8 @@
 		DDB1499B24DD381D0058DDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB1499A24DD381D0058DDAA /* Assets.xcassets */; };
 		DDB1499E24DD381D0058DDAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB1499D24DD381D0058DDAA /* Preview Assets.xcassets */; };
 		DDB149A124DD381D0058DDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB1499F24DD381D0058DDAA /* LaunchScreen.storyboard */; };
+		DDB149A924DD55630058DDAA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB149A824DD55630058DDAA /* CircleImage.swift */; };
+		DDB149AB24DD588F0058DDAA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB149AA24DD588F0058DDAA /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DDB1499D24DD381D0058DDAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDB149A024DD381D0058DDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDB149A224DD381D0058DDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB149A824DD55630058DDAA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		DDB149AA24DD588F0058DDAA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DDB1499F24DD381D0058DDAA /* LaunchScreen.storyboard */,
 				DDB149A224DD381D0058DDAA /* Info.plist */,
 				DDB1499C24DD381D0058DDAA /* Preview Content */,
+				DDB149A824DD55630058DDAA /* CircleImage.swift */,
+				DDB149AA24DD588F0058DDAA /* MapView.swift */,
 			);
 			path = swiftuiDemo;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB1499524DD381B0058DDAA /* AppDelegate.swift in Sources */,
+				DDB149A924DD55630058DDAA /* CircleImage.swift in Sources */,
+				DDB149AB24DD588F0058DDAA /* MapView.swift in Sources */,
 				DDB1499724DD381B0058DDAA /* SceneDelegate.swift in Sources */,
 				DDB1499924DD381B0058DDAA /* ContentView.swift in Sources */,
 			);
